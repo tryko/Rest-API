@@ -1,12 +1,14 @@
-configure tools:
+configure development tools:
 
-files          | packages
----------------|---------
-.babelrc       | dev:[babel-core,babel-loader,babel-plugin-transform-object-rest-spread,babel-preset-env]
-.editorconfing |     
+* nodemon
+* morgan
 
+more tools:
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+files             | packages
+------------------|---------
+.babelrc          | dev:[babel-core,babel-loader,babel-plugin-transform-object-rest-spread,babel-preset-env]
+.editorconfing    | vscode extension
+.elist            | dev: [ elist, eslint-config-airbnb ]
+webpack.config.js | dev: [ webpack, webpack-node-externals]  
+
