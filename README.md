@@ -12,3 +12,7 @@ files             | packages
 .elist            | dev: [ elist, eslint-config-airbnb ]
 webpack.config.js | dev: [ webpack, webpack-node-externals]  
 
+** Basic server **
+* Preperation to connection to mongo with mongoose.
+* Added model schema.
+* Added Body Parser, not being used yet.
